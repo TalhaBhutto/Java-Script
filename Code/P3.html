@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Using For Loop</title>
+    <script>
+        var arr=[
+            ["Name","Class","Percentage"],
+            ["AR","BSSE",80],
+            ["Adeel","BSSE",78],
+            ["Noman","BSSE",60],
+            ["Talha","BSSE",65]
+
+        ]
+        var avg
+        document.write("<table style=\"border=1px;\"");
+        for(var a=0;a<=4;a++){
+            document.write("<tr>")
+            for (var b=0;b<=2;b++){
+                document.write("<td>"+arr[a][b]+"</td>");
+            }
+            document.write("</tr>");
+            avg=avg+arr[a-1][b-1];
+        }
+        document.write("Average Percentage of the group: "+avg/4);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
