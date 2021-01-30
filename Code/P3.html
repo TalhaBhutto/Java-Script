@@ -27,10 +27,10 @@
                 document.write("<td>"+arr[a][b]+"</td>");
             }
             document.write("</tr>");
-            avg=avg+arr[a][b-1];
+            if(a>0){avg=avg+arr[a][b-1];}
         }
         document.write("</table>")
-        document.write("Average Percentage of the group: "+avg);
+        document.write("Average Percentage of the group: "+avg.toString());
     </script>
 </head>
 <body>
