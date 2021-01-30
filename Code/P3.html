@@ -19,7 +19,7 @@
             Gender: "Male",
         }
         document.write("About me....."+me.name);
-        var avg
+        var avg=0;
         document.write("<table border=1px;>");
         for(var a=0;a<=4;a++){
             document.write("<tr>")
@@ -27,7 +27,7 @@
                 document.write("<td>"+arr[a][b]+"</td>");
             }
             document.write("</tr>");
-            if(a>0){avg=avg+arr[a][b];}
+            if(a>0){avg=avg+arr[a][b-1];}
         }
         document.write("</table>")
         document.write("Average Percentage of the group: "+avg);
