@@ -12,18 +12,22 @@
         .b{
             color: blue;
         }
+        .c{
+            color: chartreuse;
+        }
     </style>
 </head>
 <body>
     Name : <input type="text" id="Name" onkeypress="demo()"/>
     <span class="a">ABCD</span>
     <span class="a">XYZ</span>
+    <span id="ForToggle">NEW TEXT</span>
     <script>
         function demo(){
             var n= $("#Name").val();
             console.log(n);
             $('.a').addClass('.b').removeClass('.a');
-
+            $("#ForToggle").toggleClass(".c");
         }
     </script>
 </body>
