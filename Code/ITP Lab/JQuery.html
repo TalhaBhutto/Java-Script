@@ -7,9 +7,13 @@
 </head>
 <body>
     Name : <input type="text" id="Name" onkeypress="demo()">
+    <span class="A">ABCD</span>
+    <span class="A">XYZ</span>
     <script>
         function demo(){
             var n= document.getElementById("Name").value;
+            var s=document.getElementsByClassName("A");
+            console.log(s);
         }
     </script>
 </body>
