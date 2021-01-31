@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    Name : <input type="text" id="Name" onkeypress="demo()">
+    Name : <input type="text" id="Name" onkeypress="demo()"/>
     <span class="A">ABCD</span>
     <span class="A">XYZ</span>
     <script>
         function demo(){
-            var n= document.getElementById("Name").value;
+            var n= document.getElementById('name').value;
+            console.log(n);
             var s=document.getElementsByClassName("A");
             console.log(s);
+            var n= $("#Name").val();
+            console.log(n);
         }
     </script>
 </body>
