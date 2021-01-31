@@ -8,23 +8,21 @@
     <style>
         .a{
             color: red;
-            background-color: burlywood;
         }
         .b{
             color: blue;
-            background-color: chartreuse;
         }
     </style>
 </head>
 <body>
     Name : <input type="text" id="Name" onkeypress="demo()"/>
     <span class="a">ABCD</span>
-    <span class="b">XYZ</span>
+    <span class="a">XYZ</span>
     <script>
         function demo(){
             var n= $("#Name").val();
             console.log(n);
-            $(".a").addClass(".b");
+            $('.a').addClass('.b').removeClass('.a');
 
         }
     </script>
