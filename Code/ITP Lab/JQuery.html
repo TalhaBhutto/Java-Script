@@ -23,7 +23,15 @@
     <span class="a">XYZ</span>
     <span id="ForToggle">NEW TEXT</span>
     <p hidden="hidden" class="a" id="ErrorP">This is an Error</p>
+    <ul id="Vowels">
+
+    </ul>
     <script>
+        var arr=["A","E","I","O","U"];
+        $(arr).each(function (index,element){
+            console.log("Fruit Number "+index+" is "+element);
+        });
+        $.each(arr)
         function demo(){
             var n= $("#Name").val();
             console.log(n);
