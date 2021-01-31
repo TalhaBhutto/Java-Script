@@ -22,10 +22,17 @@
     <span class="a">ABCD</span>
     <span class="a">XYZ</span>
     <span id="ForToggle">NEW TEXT</span>
+    <p hidden="hidden" class="a" id="ErrorP">This is an Error</p>
     <script>
         function demo(){
             var n= $("#Name").val();
             console.log(n);
+            if(n=="error"){
+                $("#ErrorP").fadeIn();
+            }
+            else{
+                $("#ErrorP").fadeOut();
+            }
             $('.a').addClass('b').removeClass("a");
             $("#ForToggle").toggleClass("c");
         }
