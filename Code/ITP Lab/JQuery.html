@@ -27,11 +27,13 @@
 
     </ul>
     <script>
-        var arr=["A","E","I","O","U"];
+        var arr=["A","E","I","O","U"],h;
         $(arr).each(function (index,element){
             console.log("Fruit Number "+index+" is "+element);
         });
-        $.each(arr)
+        
+        $.each(arr, function(index,value){h+="<li>"+value+"</li>"})
+        $("#Vowels").html(h);
         function demo(){
             var n= $("#Name").val();
             console.log(n);
