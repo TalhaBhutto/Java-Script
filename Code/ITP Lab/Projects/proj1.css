@@ -1,3 +1,7 @@
 h1{
     font-family: 'Times New Roman', Times, serif;
 }
+.sliderImage{
+    max-width: 600px;
+    max-height: 400px;
+}
