@@ -16,4 +16,5 @@ h1{
     height: 200px;
 }
 .sb1{max-height: 650px;
+    overflow-y: scroll;
 }
