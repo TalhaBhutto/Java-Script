@@ -9,6 +9,7 @@ h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-underline-position: below;
     text-decoration: darkgray;
+    text-decoration-line: underline;
 }
 .Card_Para_style{
     font-family: monospace;
