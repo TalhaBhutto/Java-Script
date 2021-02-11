@@ -9,7 +9,8 @@ h1{
     
 }
 .Card_Para_style{
-    
+    font-family: monospace;
+    font-weight: bold;
 }
 .img1{
     max-width: 130px;
