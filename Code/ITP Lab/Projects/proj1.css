@@ -6,7 +6,7 @@ h1{
     max-height: 400px;
 }
 .Card_Title_style{
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .Card_Para_style{
     font-family: monospace;
