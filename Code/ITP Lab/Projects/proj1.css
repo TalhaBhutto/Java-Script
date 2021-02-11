@@ -7,6 +7,7 @@ h1{
 }
 .Card_Title_style{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-underline-position: below;
 }
 .Card_Para_style{
     font-family: monospace;
