@@ -22,3 +22,7 @@ h1{
 .sb1{max-height: 650px;
     overflow-y: scroll;
 }
+.icon{
+    width: 30px;
+    height: 30px;
+}
