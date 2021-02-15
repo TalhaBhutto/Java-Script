@@ -3,7 +3,7 @@ function ModeChanger(num){
 if(num==1){
     document.querySelector("#B1").setAttribute("class","B1");
     //document.querySelector("#SideBarList").innerHTML=X1;
-    document.querySelector("#SideBarList").innerHTML="<p>hahaha</p>"
+    document.querySelectorAll("#SideBarList").innerHTML="<p>hahaha</p>"
 }
 else{
     document.querySelector("#B1").setAttribute("class","B2");
