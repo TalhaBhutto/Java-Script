@@ -14,7 +14,7 @@ if(num==1){
     }
 else{document.querySelector("#B1").setAttribute("class","");
 document.querySelector("#Mode").innerHTML="<a href=\"#\"><img class=\"icon\" src=\"images/DayMode.webp\" onclick=\"ModeChanger(1)\" alt=\"\"></a>";   
-document.querySelector("#ModeLabel").innerHTML="<a href=\"#\" class=\"nav-link\" onclick=\"ModeChanger(1)\">Day Mode</a>";
+document.querySelector("#ModeLabel").innerHTML="<a href=\"#\" class=\"nav-link\" onclick=\"ModeChanger(1)\">Light Mode</a>";
 listgroup=document.getElementsByClassName("list-group-item");
 for(a=0;a<listgroup.length;a++){
     listgroup[a].setAttribute("class","list-group-item");
