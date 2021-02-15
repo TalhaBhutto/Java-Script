@@ -3,9 +3,9 @@ function ModeChanger(num){
 if(num==1){
     document.querySelector("#B1").setAttribute("class","B1");
     //document.querySelector("#SideBarList").innerHTML=X1;
-    listgroup=document.getElementsByClassName("list-group-item")[3]
+    listgroup=document.getElementsByClassName("list-group-item")
     for(a=0;a<listgroup.length;a++){
-        listgroup[a].setAttribute("class","list-group-item list-group-item-dark")
+        listgroup[a].setAttribute("class","list-group-item list-group-item-dark");
     }
 
     }
