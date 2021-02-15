@@ -8,7 +8,7 @@ if(num==1){
     }
     cards=document.getElementsByClassName("card");
     for(b=0;b<cards.length;b++){
-        cards.setAttribute("class","card mb-3  m-2 col-5 bg-dark");
+        cards[b].setAttribute("class","card mb-3  m-2 col-5 bg-dark");
     }
     }
 else{
