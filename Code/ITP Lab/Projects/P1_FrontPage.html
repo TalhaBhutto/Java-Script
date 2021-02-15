@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body id="B1">
   <!--navbar-->
   <div class="row">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -42,11 +42,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="#" tabindex="-1" aria-disabled="false">Gallery</a>
               </li>
-              <li>
+              <li id="Mode">
                 <img class="icon" src="images/DayMode.webp" alt="">
               </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Light Mode</a>
+              <li class="nav-item" id="ModeLabel">
+                <a href="#" class="nav-link" onclick="ModeChanger(1)">Light Mode</a>
               </li>
             </ul>
             <form class="d-flex">
