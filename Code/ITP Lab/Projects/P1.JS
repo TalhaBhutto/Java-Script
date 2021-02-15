@@ -3,7 +3,7 @@ function ModeChanger(num){
 if(num==1){
     document.querySelector("#B1").setAttribute("class","B1");
     //document.querySelector("#SideBarList").innerHTML=X1;
-    document.querySelectorAll(".listGroupItem").setAttribute("class","listGroupItemDark");
+    document.querySelectorAll("SideBarList").clsss="list-group-item-dark";
 }
 else{
     document.querySelector("#B1").setAttribute("class","B2");
