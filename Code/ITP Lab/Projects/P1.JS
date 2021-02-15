@@ -3,8 +3,12 @@ function ModeChanger(num){
 if(num==1){
     document.querySelector("#B1").setAttribute("class","B1");
     //document.querySelector("#SideBarList").innerHTML=X1;
-    document.querySelectorAll("#SideBarList").innerHTML="<p>hahaha</p>"
-}
+    listgroup=document.getElementsByClassName("list-group-item")[3]
+    for(a=0;a<listgroup.length;a++){
+        listgroup[a].setAttribute("class","list-group-item list-group-item-dark")
+    }
+
+    }
 else{
     document.querySelector("#B1").setAttribute("class","B2");
 }
