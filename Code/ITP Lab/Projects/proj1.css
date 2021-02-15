@@ -23,6 +23,8 @@ h1{
     overflow-y: scroll;
 }
 .icon{
+    margin-left: 10px;
+    margin-top: 10px;
     width: 15px;
     height: 15px;
 }
