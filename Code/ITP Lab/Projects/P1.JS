@@ -6,7 +6,10 @@ if(num==1){
     for(a=0;a<listgroup.length;a++){
         listgroup[a].setAttribute("class","list-group-item list-group-item-dark");
     }
-
+    cards=document.getElementsByClassName("card");
+    for(b=0;b<cards.length;b++){
+        cards.setAttribute("class","card mb-3  m-2 col-5 bg-dark")
+    }
     }
 else{
     document.querySelector("#B1").setAttribute("class","");
