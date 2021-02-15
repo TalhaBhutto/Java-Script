@@ -1,0 +1,3 @@
+function ModeChanger(num){
+
+}
