@@ -4,6 +4,7 @@ if(num==1){
     document.querySelector("#Mode").innerHTML="<a href=\"#\"><img class=\"icon\" src=\"images/NightMode.png\" onclick=\"ModeChanger(2)\" alt=\"\"></a>";   
     document.querySelector("#ModeLabel").innerHTML="<a href=\"#\" class=\"nav-link\" onclick=\"ModeChanger(2)\">Dark Mode</a>";
     listgroup=document.getElementsByClassName("list-group-item");
+    document.querySelector("#navbar").setAttribute("class","navbar navbar-expand-lg navbar-dark bg-dark");
     for(a=0;a<listgroup.length;a++){
         listgroup[a].setAttribute("class","list-group-item list-group-item-dark");
     }
