@@ -5,6 +5,7 @@ if(num==1){
     document.querySelector("#ModeLabel").innerHTML="<a href=\"#\" class=\"nav-link\" onclick=\"ModeChanger(2)\">Dark Mode</a>";
     listgroup=document.getElementsByClassName("list-group-item");
     document.querySelector("#navbar").setAttribute("class","navbar navbar-expand-lg navbar-dark bg-secondary");
+    document.querySelector("#header").setAttribute("class","row bg-secondary");
     for(a=0;a<listgroup.length;a++){
         listgroup[a].setAttribute("class","list-group-item list-group-item-dark");
     }
@@ -26,5 +27,6 @@ cards=document.getElementsByClassName("card");
 for(b=0;b<cards.length;b++){
     cards[b].setAttribute("class","card mb-3  m-2 col-5");
 }
+document.querySelector("#header").setAttribute("class","row bg-primary");
 }
 }
