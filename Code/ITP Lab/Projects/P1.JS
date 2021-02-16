@@ -13,7 +13,9 @@ if(num==1){
         cards[b].setAttribute("class","card mb-3  m-2 col-5 bg-dark");
     }
     }
-else{document.querySelector("#B1").setAttribute("class","");
+else{
+    document.querySelector("#navbar").setAttribute("class","navbar navbar-expand-lg navbar-dark bg-primary");
+    document.querySelector("#B1").setAttribute("class","");
 document.querySelector("#Mode").innerHTML="<a href=\"#\"><img class=\"icon\" src=\"images/DayMode.webp\" onclick=\"ModeChanger(1)\" alt=\"\"></a>";   
 document.querySelector("#ModeLabel").innerHTML="<a href=\"#\" class=\"nav-link\" onclick=\"ModeChanger(1)\">Light Mode</a>";
 listgroup=document.getElementsByClassName("list-group-item");
