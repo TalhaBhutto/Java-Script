@@ -1,4 +1,12 @@
 .gallery_image1{
     height: 100px;
-    width: 100px;
+    width: 165px;
+    margin: 0px 3px 3px 0px;
+    border: 2px solid gray;
+}
+.gallery_image2{
+    height: 120px;
+    width: 250px;
+    margin-right: 3px;
+    border: 2px solid gray;
 }
