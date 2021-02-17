@@ -56,89 +56,8 @@
           </div>
         </div>
       </div>
-      
-
-        <!--W#school help-->
-        <div class="row">
-          <div class="w3-container">
-          <div class="w3-content" style="max-width:1500px">
-            <img class="mySlides" src="Images/math1.jpg" style="width:100%;height:300px;display:none">
-            <img class="mySlides" src="Images/chem1.jpg" style="width:100%;height:300px;">
-            <img class="mySlides" src="Images/sol1.jpg" style="width:100%;display:none;height:300px;">
-            <img class="mySlides" src="Images/eng1.jpg" style="width:100%;height:300px;display:none">
-            <img class="mySlides" src="Images/geo1.jpg" style="width:100%;height:300px;display:none">
-            <img class="mySlides" src="Images/Hist1.jpg" style="width:100%;display:none;height:300px;">
-            <img class="mySlides" src="Images/Sind1.jpg" style="width:100%;height:300px;display:none">
-            <img class="mySlides" src="Images/phy1.jpg" style="width:100%;height:300px;display:none">
-            <img class="mySlides" src="Images/Urdu1.jpg" style="width:100%;display:none;height:300px;">
-            <img class="mySlides" src="Images/comp1.jpg" style="width:100%;height:300px;display:none">
-            <img class="mySlides" src="Images/bio1.png" style="width:100%;height:300px;display:none">
-            <img class="mySlides" src="Images/arabic1.jpg" style="width:100%;display:none;height:300px;">
-          
-            <div class="w3-row-padding w3-section">
-              <div class="w3-col s1">
-                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/math1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(1)">
-              </div>
-              <div class="w3-col s1">
-                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/chem1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(2)">
-              </div>
-              <div class="w3-col s1">
-                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/sol1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(3)">
-              </div>
-              <div class="w3-col s1">
-                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/eng1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(4)">
-              </div>
-              <div class="w3-col s1">
-                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/geo1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(5)">
-              </div>
-              <div class="w3-col s1">
-                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/Hist1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(6)">
-              </div>
-              <div class="w3-col s1">
-                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/Sind1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(7)">
-              </div>
-              <div class="w3-col s1">
-                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/phy1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(8)">
-              </div>
-              <div class="w3-col s1">
-                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/Urdu1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(9)">
-              </div>
-              <div class="w3-col s1">
-                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/comp1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(10)">
-              </div>
-              <div class="w3-col s1">
-                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/bio1.png" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(11)">
-              </div>
-              <div class="w3-col s1">
-                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/arabic1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(12)">
-              </div>
-            </div>
-          </div>
-          
-          <script>
-          function currentDiv(n) {
-            showDivs(slideIndex = n);
-          }
-          
-          function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("demo");
-            if (n > x.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = x.length}
-            for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-            }
-            x[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " w3-opacity-off";
-          }
-          </script>
-        </div>
-      <!---main--->
       </nav>
+      <!--Main-->
       <div class="row">
          <!--side bar-->
         <div class="sidebar col-3 sb1">
@@ -170,7 +89,12 @@
           </ul>
          </div>
          <!--Main window-->
+         
          <div class="col-9">
+          <div class="row">
+            <h1>Special Moments</h1>
+            <p>Here are some special moments of our journey....</p>
+          </div>
            <div class="row">
              <div class="col-6 m2">
               <div class="row">
@@ -194,91 +118,91 @@
               </div>
               <div class="row">
                 <p>
-                  <b></b><i></i>
+                  <b>Group Discussions:</b><i> We arrange sessions for our members for discussions and querries. Our teachers are also part of these sessions to help everyone.</i>
                 </p>
               </div>
              </div>
-             <div class="col-6 m2">
+             <div class="col-6 m5">
               <div class="row">
                 <div class="col-4">
-                  <img src="Images/GD1.jpg" class="gallery_image1 image-fluid" alt="">
+                  <img src="Images/Graduation1.jpg" class="gallery_image1 image-fluid" alt="">
                 </div>
                 <div class="col-4">
-                  <img src="Images/GD2.jpg" class="gallery_image1 image-fluid" alt="">
+                  <img src="Images/Graduation2.jpg" class="gallery_image1 image-fluid" alt="">
                 </div>
                 <div class="col-4">
-                  <img src="Images/GD3.jpg" class="gallery_image1 image-fluid" alt="">
+                  <img src="Images/Graduation3.jpg" class="gallery_image1 image-fluid" alt="">
                 </div>
               </div>
               <div class="row">
                 <div class="col-6">
-                  <img src="Images/GD4.jpg" class="gallery_image2 image-fluid" alt="">
+                  <img src="Images/Graduation4.jpg" class="gallery_image2 image-fluid" alt="">
                 </div>
                 <div class="col-6">
-                  <img src="Images/GD5.jpg" class="gallery_image2 image-fluid" alt="">
+                  <img src="Images/Graduation5.jpg" class="gallery_image2 image-fluid" alt="">
                 </div>
               </div>
               <div class="row">
                 <p>
-                  <b></b><i></i>
+                  <b>Successful Candidates:</b><i> Students who got coaching from us are now studying in the best colleges and universities of the world</i>
                 </p>
               </div>
              </div>
            </div>
+           <div class="row">
+            <div class="col-6 m2">
+             <div class="row">
+               <div class="col-4">
+                 <img src="Images/ST1.jpg" class="gallery_image1 image-fluid" alt="">
+               </div>
+               <div class="col-4">
+                 <img src="Images/ST2.jpg" class="gallery_image1 image-fluid" alt="">
+               </div>
+               <div class="col-4">
+                 <img src="Images/ST3.jpg" class="gallery_image1 image-fluid" alt="">
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-6">
+                 <img src="Images/ST4.jpg" class="gallery_image2 image-fluid" alt="">
+               </div>
+               <div class="col-6">
+                 <img src="Images/ST5.jpg" class="gallery_image2 image-fluid" alt="">
+               </div>
+             </div>
+             <div class="row">
+               <p>
+                 <b></b><i></i>
+               </p>
+             </div>
+            </div>
+            <div class="col-6 m2">
+             <div class="row">
+               <div class="col-4">
+                 <img src="Images/Support1.jpg" class="gallery_image1 image-fluid" alt="">
+               </div>
+               <div class="col-4">
+                 <img src="Images/Support2.jpg" class="gallery_image1 image-fluid" alt="">
+               </div>
+               <div class="col-4">
+                 <img src="Images/Support3.jpg" class="gallery_image1 image-fluid" alt="">
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-6">
+                 <img src="Images/Support4.jpg" class="gallery_image2 image-fluid" alt="">
+               </div>
+               <div class="col-6">
+                 <img src="Images/Support5.jpg" class="gallery_image2 image-fluid" alt="">
+               </div>
+             </div>
+             <div class="row">
+               <p>
+                 <b></b><i></i>
+               </p>
+             </div>
+            </div>
           </div>
-          <div class="row">
-            <div class="col-6 m2">
-             <div class="row">
-               <div class="col-4">
-                 <img src="Images/GD1.jpg" class="gallery_image1 image-fluid" alt="">
-               </div>
-               <div class="col-4">
-                 <img src="Images/GD2.jpg" class="gallery_image1 image-fluid" alt="">
-               </div>
-               <div class="col-4">
-                 <img src="Images/GD3.jpg" class="gallery_image1 image-fluid" alt="">
-               </div>
-             </div>
-             <div class="row">
-               <div class="col-6">
-                 <img src="Images/GD4.jpg" class="gallery_image2 image-fluid" alt="">
-               </div>
-               <div class="col-6">
-                 <img src="Images/GD5.jpg" class="gallery_image2 image-fluid" alt="">
-               </div>
-             </div>
-             <div class="row">
-               <p>
-                 <b></b><i></i>
-               </p>
-             </div>
-            </div>
-            <div class="col-6 m2">
-             <div class="row">
-               <div class="col-4">
-                 <img src="Images/GD1.jpg" class="gallery_image1 image-fluid" alt="">
-               </div>
-               <div class="col-4">
-                 <img src="Images/GD2.jpg" class="gallery_image1 image-fluid" alt="">
-               </div>
-               <div class="col-4">
-                 <img src="Images/GD3.jpg" class="gallery_image1 image-fluid" alt="">
-               </div>
-             </div>
-             <div class="row">
-               <div class="col-6">
-                 <img src="Images/GD4.jpg" class="gallery_image2 image-fluid" alt="">
-               </div>
-               <div class="col-6">
-                 <img src="Images/GD5.jpg" class="gallery_image2 image-fluid" alt="">
-               </div>
-             </div>
-             <div class="row">
-               <p>
-                 <b></b><i></i>
-               </p>
-             </div>
-            </div>
           </div>
        </div>
        <div class="row bg-primary" id="footer" style="font-family: Georgia, 'Times New Roman', Times, serif;color: white;">
