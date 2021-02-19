@@ -1,3 +1,3 @@
 # Java-Script
 Practice of Java Script
-Some projects are
+Some projects are also
