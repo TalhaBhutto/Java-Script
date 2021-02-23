@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution.PK</title>
+    <link rel="stylesheet" href="proj1.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="P1.JS"></script>
+</head>
+<body id="B1">
+  <!--navbar-->
+  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Solution.PK</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="P1_FrontPage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Our Vision</a></li>
+                  <li><a class="dropdown-item" href="#">Faculty</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Gallery.html">Successful Candidates</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Gallery.html" tabindex="-1" aria-disabled="false">Gallery</a>
+              </li>
+              <li id="Mode">
+                <a href="#"><img class="icon" src="images/DayMode.webp" onclick="ModeChanger(1)" alt=""></a>
+              </li>
+              <li class="nav-item" id="ModeLabel">
+                <a href="#" class="nav-link" onclick="ModeChanger(1)">Light Mode</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+
+        <!--W#school help-->
+        <div class="row">
+          <div class="w3-container">
+          <div class="w3-content" style="max-width:1500px">
+            <img class="mySlides" src="Images/math1.jpg" style="width:100%;height:300px;display:none">
+            <img class="mySlides" src="Images/chem1.jpg" style="width:100%;height:300px;">
+            <img class="mySlides" src="Images/sol1.jpg" style="width:100%;display:none;height:300px;">
+            <img class="mySlides" src="Images/eng1.jpg" style="width:100%;height:300px;display:none">
+            <img class="mySlides" src="Images/geo1.jpg" style="width:100%;height:300px;display:none">
+            <img class="mySlides" src="Images/Hist1.jpg" style="width:100%;display:none;height:300px;">
+            <img class="mySlides" src="Images/Sind1.jpg" style="width:100%;height:300px;display:none">
+            <img class="mySlides" src="Images/phy1.jpg" style="width:100%;height:300px;display:none">
+            <img class="mySlides" src="Images/Urdu1.jpg" style="width:100%;display:none;height:300px;">
+            <img class="mySlides" src="Images/comp1.jpg" style="width:100%;height:300px;display:none">
+            <img class="mySlides" src="Images/bio1.png" style="width:100%;height:300px;display:none">
+            <img class="mySlides" src="Images/arabic1.jpg" style="width:100%;display:none;height:300px;">
+          
+            <div class="w3-row-padding w3-section">
+              <div class="w3-col s1">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/math1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(1)">
+              </div>
+              <div class="w3-col s1">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/chem1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(2)">
+              </div>
+              <div class="w3-col s1">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/sol1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(3)">
+              </div>
+              <div class="w3-col s1">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/eng1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(4)">
+              </div>
+              <div class="w3-col s1">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/geo1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(5)">
+              </div>
+              <div class="w3-col s1">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/Hist1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(6)">
+              </div>
+              <div class="w3-col s1">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/Sind1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(7)">
+              </div>
+              <div class="w3-col s1">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/phy1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(8)">
+              </div>
+              <div class="w3-col s1">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/Urdu1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(9)">
+              </div>
+              <div class="w3-col s1">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/comp1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(10)">
+              </div>
+              <div class="w3-col s1">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/bio1.png" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(11)">
+              </div>
+              <div class="w3-col s1">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="Images/arabic1.jpg" style="width:100%;height:50px;cursor:pointer" onclick="currentDiv(12)">
+              </div>
+            </div>
+          </div>
+          
+          <script>
+          function currentDiv(n) {
+            showDivs(slideIndex = n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+            }
+            x[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " w3-opacity-off";
+          }
+          </script>
+        </div>
+      <!---main--->
+      </nav>
+      <div class="row">
+         <!--side bar-->
+        <div class="sidebar col-3 sb1">
+          <ul class="list-group list-group-flush" id="SideBarListz">
+            <li class="list-group-item lg5" id="SideBarList">Maths solutions</li>
+            <li class="list-group-item lg5" id="SideBarList">English Solutions</li>
+            <li class="list-group-item" id="SideBarList">Chemistry Solutions</li>
+            <li class="list-group-item" id="SideBarList">Physics Solutions</li>
+            <li class="list-group-item" id="SideBarList">Biology Solutions</li>
+            <li class="list-group-item" id="SideBarList">History Solutions</li>
+            <li class="list-group-item" id="SideBarList">Geography Solutions</li>
+            <li class="list-group-item" id="SideBarList">Urdu Solutions</li>
+            <li class="list-group-item" id="SideBarList">Sindhi Solutions</li>
+            <li class="list-group-item" id="SideBarList">Computer Solutions</li>
+            <li class="list-group-item" id="SideBarList">Islamiat Solutions</li>
+            <li class="list-group-item" id="SideBarList">Arabic Solutions</li>
+            <li class="list-group-item" id="SideBarList">Maths Past Papers</li>
+            <li class="list-group-item" id="SideBarList">English Past Papers</li>
+            <li class="list-group-item" id="SideBarList">Chemistry Past Papers</li>
+            <li class="list-group-item" id="SideBarList">Physics Past Papers</li>
+            <li class="list-group-item" id="SideBarList">Biology Past Papers</li>
+            <li class="list-group-item" id="SideBarList">History Past Papers</li>
+            <li class="list-group-item" id="SideBarList">Geography Past Papers</li>
+            <li class="list-group-item" id="SideBarList">Urdu Past Papers</li>
+            <li class="list-group-item" id="SideBarList">Sindhi Past Papers</li>
+            <li class="list-group-item" id="SideBarList">Computer Past Papers</li>
+            <li class="list-group-item" id="SideBarList">Islamiat Past Papers</li>
+            <li class="list-group-item" id="SideBarList">Arabic Past Papers</li>
+          </ul>
+         </div>
+         <!--Main window-->
+         <div class="col-9">
+           <h1>Introduction</h1>
+           <p>Solutions.PK is an online problem solving websit that provide millions of Past Papers of all the subjects being offered by various Boards across Pakistan. We have over 500 trained professionals always at yours Services.</p>
+          <h1>Our Services</h1>
+          <span class="row">
+            <div class="card mb-3  m-2 col-5" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img class="img1" src="Images/S1.jpg" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title Card_Title_style">Brain Development</h5>
+                    <p class="card-text Card_Para_style">Our website works in best ways for the brain development of the students that participate in our program.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3  m-2 col-5" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img class="img1" src="Images/s2.png" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title Card_Title_style">Skill Development</h5>
+                    <p class="card-text Card_Para_style">Our website works in best ways for the Skill development of the students that participate in our program.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 m-2 col-5" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img class="img1" src="Images/s3.png" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title Card_Title_style">Best Solutions</h5>
+                    <p class="card-text Card_Para_style">We provide the best and most reliable solutions to all the Qs and Queries being asked in competitive exams.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 m-2 col-5" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img class="img1" src="Images/s4.jpg" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title Card_Title_style">24/7 Support</h5>
+                    <p class="card-text Card_Para_style">We have a team of best teachers and career councellors always available for its subscribers.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </span>
+          </div>
+       </div>
+       <div class="row bg-primary" id="footer" style="font-family: Georgia, 'Times New Roman', Times, serif;color: white;">
+          <div class="col-4 mb-2">
+            <span><img src="images/mail.jpg" style="width: 20px;height: 20; border-radius: 50%; " alt="">  : talhahussain444@gmail.com<br></span>
+            <span><img src="images/phone.png" style="width: 20px;height: 20; border-radius: 50%; " alt="">  : +92 315 8910655<br></span>
+            <span><img src="images/twitter.jpg" style="width: 20px;height: 20; border-radius: 50%; " alt="">  : bhuttosays</span>
+          </div>
+          <div class="col-4" style="text-align: center;">
+            <h1>Designed By Talha Hussain Bhutto</h1>
+          </div>
+          <div class="col-4 mb-2">
+            <p  style="float: right;">Address: G-128, Defence <br>View Housing Society, Ph-II,<br>Karachi.</p>
+          </div>
+       </div>
+      
+</body>
+</html>
