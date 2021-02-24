@@ -36,6 +36,7 @@ h1{
     background-color: yellow;
     color: purple;
 }
-.SidebarLink{
+a.SidebarLink{
     text-decoration: none;
+    color: black;
 }
