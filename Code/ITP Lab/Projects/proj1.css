@@ -36,7 +36,6 @@ h1{
     background-color: yellow;
     color: purple;
 }
-a.SidebarLink{
-    text-decoration: none;
-    color: black;
-}
+a.SidebarLink:link {color:#ff0000;}
+a.SidebarLink:visited {color:#0000ff;}
+a.SidebarLink:hover {font-size:150%;}
