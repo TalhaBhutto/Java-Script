@@ -30,14 +30,7 @@ for(b=0;b<cards.length;b++){
 document.querySelector("#footer").setAttribute("class","row bg-primary");
 }
 }
-function Solution(title){
-    window.open("Solutions.html","_Parent");
-    let Heading= document.querySelector("#SolutionTitle");
-    console.log(Heading);
-    //Heading.innerHTML="<h1>"+title+"</h1>";
-    //console.log(Heading.innerHTML);
-    //console.log(Heading);
-}
+let Solution=title=>window.open("Solutions.html","_Parent");
 function PastP(self){
     window.open("pastPaper.html","_Parent");
 }
