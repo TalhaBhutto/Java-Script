@@ -33,7 +33,7 @@ document.querySelector("#footer").setAttribute("class","row bg-primary");
 let Solution=title=>{window.open("Solutions.html","_Parent");sol2(title)};
 let sol2=title=>{
 let heading= document.getElementById("SolutionTitle");
-console.log(heading);
+console.log(title);
 };
 function PastP(self){
     window.open("pastPaper.html","_Parent");
