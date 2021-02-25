@@ -30,7 +30,7 @@ for(b=0;b<cards.length;b++){
 document.querySelector("#footer").setAttribute("class","row bg-primary");
 }
 }
-let Solution=title=>window.open("Solutions.html","_Parent");
+let Solution=title=>{window.open("Solutions.html","_Parent");sol2()};
 function PastP(self){
     window.open("pastPaper.html","_Parent");
 }
