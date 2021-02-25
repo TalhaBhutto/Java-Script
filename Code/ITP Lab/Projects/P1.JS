@@ -33,3 +33,6 @@ document.querySelector("#footer").setAttribute("class","row bg-primary");
 function Solution(self){
     window.open("Solutions.html","_Parent")
 }
+function Solution(self){
+    window.open("Solutions.html","_Parent")
+}
