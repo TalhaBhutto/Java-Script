@@ -34,5 +34,5 @@ function Solution(self){
     window.open("Solutions.html","_Parent")
 }
 function PastP(self){
-    window.open("Solutions.html","_Parent")
+    window.open("pastPaper.html","_Parent")
 }
