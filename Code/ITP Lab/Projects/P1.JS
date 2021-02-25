@@ -31,9 +31,9 @@ document.querySelector("#footer").setAttribute("class","row bg-primary");
 }
 }
 function Solution(title){
-    let Heading= document.querySelector("#SolutionTitle")
-    console.log(Heading.innerHTML);
     //window.open("Solutions.html","_Parent");
+    let Heading= document.querySelector("#SolutionTitle2");
+    Heading.innerHTML="<h1>"+title+"</h1>";
 }
 function PastP(self){
     window.open("pastPaper.html","_Parent");
