@@ -32,7 +32,8 @@ document.querySelector("#footer").setAttribute("class","row bg-primary");
 }
 function Solution(title){
     let Heading= document.querySelector("#SolutionTitle")
-    window.open("Solutions.html","_Parent");
+    console.log(Heading.innerHTML);
+    //window.open("Solutions.html","_Parent");
 }
 function PastP(self){
     window.open("pastPaper.html","_Parent");
