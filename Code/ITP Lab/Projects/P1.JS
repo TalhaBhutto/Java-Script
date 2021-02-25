@@ -31,6 +31,8 @@ document.querySelector("#footer").setAttribute("class","row bg-primary");
 }
 }
 function Solution(self){
+    let x =self.innerHTML;
+    console.log(x);
     window.open("Solutions.html","_Parent")
 }
 function PastP(self){
