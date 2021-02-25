@@ -33,7 +33,8 @@ document.querySelector("#footer").setAttribute("class","row bg-primary");
 function Solution(title){
     window.open("Solutions.html","_Parent");
     let Heading= document.querySelector("#SolutionTitle");
-    Heading.innerHTML="<h1>"+title+"</h1>";
+    console.log(Heading);
+    //Heading.innerHTML="<h1>"+title+"</h1>";
     //console.log(Heading.innerHTML);
     //console.log(Heading);
 }
