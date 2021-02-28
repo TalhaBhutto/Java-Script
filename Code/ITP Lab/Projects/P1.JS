@@ -30,6 +30,7 @@ for(b=0;b<cards.length;b++){
     cards[b].setAttribute("class","card mb-3  m-2 col-5");
 }
 document.querySelector("#footer").setAttribute("class","row bg-primary");
+mode= true;
 }
 }
 let Solution=title=>{window.open("Solutions.html","_Parent");sol2(title)};
@@ -45,6 +46,6 @@ function ModeChanger2(){
 }
 let x=localStorage.getItem("value");
 document.write(x);
-if(x){
+if(x=="false"){
     ModeChanger(1);
 }
