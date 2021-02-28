@@ -1,3 +1,4 @@
+var mode=true;
 function ModeChanger(num){
 if(num==1){
     document.querySelector("#navbar").setAttribute("class","navbar navbar-expand-lg navbar-dark bg-secondary");
@@ -37,4 +38,7 @@ heading.innerHTML="<h1>"+this.title+"</h1>";
 };
 function PastP(self){
     window.open("pastPaper.html","_Parent");
+}
+function ModeChanger(){
+
 }
