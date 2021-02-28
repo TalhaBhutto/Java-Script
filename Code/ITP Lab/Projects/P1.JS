@@ -46,6 +46,6 @@ function ModeChanger2(){
 }
 let x=localStorage.getItem("value");
 document.write(x);
-if(x=="false"){
+if(x.toString=="false"){
     ModeChanger(1);
 }
