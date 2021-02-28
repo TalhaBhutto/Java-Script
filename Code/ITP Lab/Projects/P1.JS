@@ -41,22 +41,9 @@ function PastP(self){
     window.open("pastPaper.html","_Parent");
 };
 function ModeChanger2(){
-    test1();
-};
-function test1() {
-        url = 'file:///C:/Users/talha/Documents/GitHub/Java-Script/Code/ITP%20Lab/Projects/Gallery.html?mode=' + encodeURIComponent(mode);
-
-    document.location.href = url;
-};
-window.onload = function () {
-    var url = document.location.href,
-        params = url.split('?')[1].split('&'),
-        data = {}, tmp;
-    for (var i = 0, l = params.length; i < l; i++) {
-         tmp = params[i].split('=');
-         data[tmp[0]] = tmp[1];
-    }
-    if(!data.mode){
-        ModeChanger(1);
-    };
+    localStorage.setItem("textvalue",mode);
+}
+mode=localStorage.getItem("textvalue");
+if(!mode){
+    ModeChanger(1);
 }
