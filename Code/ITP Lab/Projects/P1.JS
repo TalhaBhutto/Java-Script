@@ -41,7 +41,10 @@ function PastP(self){
     window.open("pastPaper.html","_Parent");
 };
 function ModeChanger2(){
-if(!mode){
-    ModeChanger(1);
-}
-}
+    test1();
+};
+function test1() {
+        url = 'http://path_to_your_html_files/next.html?name=' + encodeURIComponent(mode);
+
+    document.location.href = url;
+};
