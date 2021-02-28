@@ -41,8 +41,9 @@ function PastP(self){
     window.open("pastPaper.html","_Parent");
 };
 function ModeChanger2(){
-    localStorage.setItem("textvalue",mode);
+    localStorage.setItem("value",mode);
 }
-if(localStorage.getItem("textvalue")=="true"){
+let x=localStorage.getItem("value");
+if(x){
     ModeChanger(1);
 }
