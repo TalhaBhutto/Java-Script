@@ -44,7 +44,7 @@ function ModeChanger2(){
     test1();
 };
 function test1() {
-        url = 'http://path_to_your_html_files/next.html?name=' + encodeURIComponent(mode);
+        url = 'Gallery.html?mode=' + encodeURIComponent(mode);
 
     document.location.href = url;
 };
