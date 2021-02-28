@@ -39,7 +39,7 @@ heading.innerHTML="<h1>"+this.title+"</h1>";
 };
 function PastP(self){
     window.open("pastPaper.html","_Parent");
-}
-function ModeChanger(){
+};
+function ModeChanger2(){
 
 }
