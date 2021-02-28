@@ -41,5 +41,7 @@ function PastP(self){
     window.open("pastPaper.html","_Parent");
 };
 function ModeChanger2(){
-
+if(!mode){
+    ModeChanger(1);
+}
 }
