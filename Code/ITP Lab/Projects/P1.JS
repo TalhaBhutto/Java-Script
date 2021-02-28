@@ -43,7 +43,6 @@ function PastP(self){
 function ModeChanger2(){
     localStorage.setItem("textvalue",mode);
 }
-mode=localStorage.getItem("textvalue");
-if(!mode){
+if(localStorage.getItem("textvalue")=="true"){
     ModeChanger(1);
 }
