@@ -44,7 +44,7 @@ function ModeChanger2(){
     test1();
 };
 function test1() {
-        url = 'Gallery.html?mode=' + encodeURIComponent(mode);
+        url = 'file:///C:/Users/talha/Documents/GitHub/Java-Script/Code/ITP%20Lab/Projects/Gallery.html?mode=' + encodeURIComponent(mode);
 
     document.location.href = url;
 };
