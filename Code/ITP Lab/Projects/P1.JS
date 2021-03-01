@@ -15,6 +15,7 @@ if(num==1){
     }
     document.querySelector("#footer").setAttribute("class","row bg-secondary");
     mode= "zero";
+    localStorage.setItem("value",mode);
     }
 else{
     document.querySelector("#navbar").setAttribute("class","navbar navbar-expand-lg navbar-dark bg-primary");
@@ -31,6 +32,7 @@ for(b=0;b<cards.length;b++){
 }
 document.querySelector("#footer").setAttribute("class","row bg-primary");
 mode= "one";
+localStorage.setItem("value",mode);
 }
 }
 let Solution=title=>{window.open("Solutions.html","_Parent");sol2(title)};
@@ -40,9 +42,6 @@ heading.innerHTML="<h1>"+this.title+"</h1>";
 };
 function PastP(self){
     window.open("pastPaper.html","_Parent");
-};
-function ModeChanger2(){
-    localStorage.setItem("value",mode);
 };
 let x=localStorage.getItem("value");
 document.write(x);
