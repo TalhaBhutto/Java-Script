@@ -44,5 +44,7 @@ function PastP(self){
 function ModeChanger2(){
     localStorage.setItem("value",mode);
 }
-//let x=localStorage.getItem("value");
-//ModeChanger(1);
+let x=localStorage.getItem("value");
+if(x=="zero"){
+    ModeChanger(1);
+  }
