@@ -43,7 +43,7 @@ function PastP(self){
 };
 function ModeChanger2(){
     localStorage.setItem("value",mode);
-}
+};
 let x=localStorage.getItem("value");
 document.write(x);
 if(x=="zero"){
