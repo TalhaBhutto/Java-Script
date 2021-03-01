@@ -1,4 +1,4 @@
-var mode=true;
+var mode="one";
 function ModeChanger(num){
 if(num==1){
     document.querySelector("#navbar").setAttribute("class","navbar navbar-expand-lg navbar-dark bg-secondary");
@@ -14,7 +14,7 @@ if(num==1){
         cards[b].setAttribute("class","card mb-3  m-2 col-5 bg-dark");
     }
     document.querySelector("#footer").setAttribute("class","row bg-secondary");
-    mode= false;
+    mode= "zero";
     }
 else{
     document.querySelector("#navbar").setAttribute("class","navbar navbar-expand-lg navbar-dark bg-primary");
@@ -30,7 +30,7 @@ for(b=0;b<cards.length;b++){
     cards[b].setAttribute("class","card mb-3  m-2 col-5");
 }
 document.querySelector("#footer").setAttribute("class","row bg-primary");
-mode= true;
+mode= "one";
 }
 }
 let Solution=title=>{window.open("Solutions.html","_Parent");sol2(title)};
@@ -44,8 +44,5 @@ function PastP(self){
 function ModeChanger2(){
     localStorage.setItem("value",mode);
 }
-let x=localStorage.getItem("value");
-document.write(x);
-if(!x){
-    ModeChanger(1);
-}
+//let x=localStorage.getItem("value");
+//ModeChanger(1);
