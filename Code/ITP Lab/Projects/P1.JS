@@ -39,7 +39,7 @@ localStorage.setItem("value",mode);
 }
 let Solution=title=>{window.open("Solutions.html","_Parent");localStorage.setItem("title",title);};
 function PastP(self){
-    window.open("pastPaper.html","_Parent");
+    window.open("pastPaper.html","_Parent");localStorage.setItem("title",title);
 };
 let x=localStorage.getItem("value");
 if(x=="zero"){
