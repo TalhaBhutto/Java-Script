@@ -28,7 +28,7 @@
                 <a class="nav-link" href="#footer">Contact</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   About
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -89,7 +89,7 @@
          <div class="col-9">
            <span  id="SolutionTitle"></span>
             <p>Lorem ipsum dolor, ndis autem sint odio fugiat laudantium, minima alias deserunt molestias eligendi expedita quam reiciendis ut reprehenderit corporis itaque dicta quaerat. Doloribus cupiditate, sapiente dolorum repellat nobis, sint possimus ullam consequuntur dolorem aspernatur quasi deleniti atque? Quia praesentium molestias corrupti error culpa! Quibusdam, et dolor itaque aperiam ullam, eaque voluptatibus quis entium quae ea obcaecati ex accusantium? Autem quae optio illo quidem est odit voluptate provident asperiores nihil eius recusandae culpa, excepturi quaerat laborum, dignissimos ea temporibus! Quibusdam rerum dolor voluptate dolore consectetur similique iusto architecto recusandae labore, perspiciatis natus accusantium officiis quod sapiente suscipit praesentium eum assumenda mollitia cum qui aperiam optio? Sequi, fuga error.</p>
-            <h1>About</h1>
+            <h1 id="heading1">About</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, harum. Maxime reprehenderit error alias quos provident, fuga laboriosam, iusto dicta facere numquam at, beatae esse quis quod. Fugiat, architecto illo. Architecto ab tenetur atque molestias autem nam ratione doloremque quis! Ex soluta illum est aliquam architecto amet enim corporis debitis? Fugiat aliquid omnis nobis. Asperiores, excepturi culpa consectetur expedita a voluptates at vel totam adipisci modi perspiciatis illo laboriosam corrupti, delectus voluptatibus suscipit facere id reiciendis, ea quam. Sed repudiandae illo ad sit modi dolorum animi dignissimos impedit ut consequatur placeat error, fugit eligendi est voluptate expedita, numquam itaque. Facere!</p>
             <img src="images/vision.jpg" alt="" style="float:right;margin-top:50px;">
             <h1>Our Vision</h1>
@@ -111,5 +111,10 @@
       
        <!--Script-->
        <script src="P1.JS"></script>
+       <script>
+         let t=localStorage.getItem("title");
+         var title = t.split(" ");
+         document.getElementById("heading1").innerHTML=title[0]+" "+title[1];
+       </script>
 </body>
 </html>

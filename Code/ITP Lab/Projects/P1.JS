@@ -35,11 +35,7 @@ mode= "one";
 localStorage.setItem("value",mode);
 }
 }
-let Solution=title=>{window.open("Solutions.html","_Parent");sol2(title)};
-let sol2=title=>{
-let heading= document.getElementById("SolutionTitle");
-heading.innerHTML="<h1>"+this.title+"</h1>";
-};
+let Solution=title=>{window.open("Solutions.html","_Parent");localStorage.setItem("title",title);};
 function PastP(self){
     window.open("pastPaper.html","_Parent");
 };
