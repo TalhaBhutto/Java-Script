@@ -14,6 +14,7 @@ if(num==1){
         cards[b].setAttribute("class","card mb-3  m-2 col-5 bg-dark");
     }
     document.querySelector("#footer").setAttribute("class","row bg-secondary");
+    document.getElementById("Search").setAttribute("class","btn btn-outline-primary")
     mode= "zero";
     localStorage.setItem("value",mode);
     }
