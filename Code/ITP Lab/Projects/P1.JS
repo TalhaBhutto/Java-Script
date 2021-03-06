@@ -14,7 +14,7 @@ if(num==1){
         cards[b].setAttribute("class","card mb-3  m-2 col-5 bg-dark");
     }
     document.querySelector("#footer").setAttribute("class","row bg-secondary");
-    document.getElementById("Search").setAttribute("class","btn btn-outline-primary");
+    document.getElementById("search").setAttribute("class","btn btn-outline-primary");
     mode= "zero";
     localStorage.setItem("value",mode);
     }
@@ -32,6 +32,7 @@ for(b=0;b<cards.length;b++){
     cards[b].setAttribute("class","card mb-3  m-2 col-5");
 }
 document.querySelector("#footer").setAttribute("class","row bg-primary");
+document.getElementById("search").setAttribute("class","btn btn-outline-success");
 mode= "one";
 localStorage.setItem("value",mode);
 }
