@@ -7,6 +7,12 @@
     <title>Fetch update</title>
 </head>
 <body>
+    <form action="">
+        Title <br><input type="text" id="formTitle" style="margin: 2px;"><br>
+        Body <br><input type="text" id="formBody" style="margin: 2px;"><br>
+        ID <br><input type="number" id="formID"><br>
+        <input type="submit" id="formSUbmit" onclick="PostData()">
+    </form>
     <script>
         fetch('https://jsonplaceholder.typicode.com/posts', {
   method: 'POST',
