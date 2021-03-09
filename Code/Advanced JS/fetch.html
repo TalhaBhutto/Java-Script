@@ -10,6 +10,7 @@
     
 </body>
 <script>
-    fetch("Parhlo.txt").then((response)=>{console.log(response.text())});
+    fetch("Parhlo.txt").then(response=>response.text()).then((data)=>{
+        document.write(data);})
 </script>
 </html>
